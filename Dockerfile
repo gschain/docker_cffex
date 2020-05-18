@@ -2,9 +2,11 @@ FROM python:3.7-slim
 ADD Dockerfile /app/
 ADD MyModel.py /app/
 ADD requirements.txt /app/
+ADD recipes-1.0.1-py3-none-any.whl /app/
 ENV PYTHONPATH "/app:${PYTHONPATH}"
 WORKDIR /app
 RUN pip install -r requirements.txt
+RUN pip install recipes-1.0.1-py3-none-any.whl
 EXPOSE 5000
 
 # Define environment variable

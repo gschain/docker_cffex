@@ -1,5 +1,4 @@
 boto
 seldon-core
-recipes
 tensorflow==1.13.1
 jieba
