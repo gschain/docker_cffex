@@ -1,5 +1,5 @@
 FROM python:3.7-slim
-COPY Dockerfile MyModel.py  requirements.txt /app
+COPY ./Dockerfile ./MyModel.py ./requirements.txt /app
 ENV PYTHONPATH "/app:${PYTHONPATH}"
 WORKDIR /app
 RUN pip install -r requirements.txt
