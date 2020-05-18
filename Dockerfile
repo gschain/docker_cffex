@@ -1,7 +1,7 @@
 FROM python:3.7-slim
-ADD Dockerfile /app
-ADD MyModel.py /app
-ADD requirements.txt /app
+ADD Dockerfile /app/
+ADD MyModel.py /app/
+ADD requirements.txt /app/
 ENV PYTHONPATH "/app:${PYTHONPATH}"
 WORKDIR /app
 RUN pip install -r requirements.txt
