@@ -1,3 +1,4 @@
+#-*-coding:utf-8-*-
 import os
 from recipes.example import Example
 from recipes.ner import Recipe_NER_BLSTM_CRF as NER
