@@ -1,6 +1,7 @@
 FROM python:3.7-slim
 ADD Dockerfile /app/
 ADD MyModel.py /app/
+ADD connect_s3.py /app/
 ADD requirements.txt /app/
 ADD recipes-1.0.1-py3-none-any.whl /app/
 ENV PYTHONPATH "/app:${PYTHONPATH}"
