@@ -1,0 +1,4 @@
+boto
+seldon-core
+recipes==1.0.1
+tensorflow==1.7.0
