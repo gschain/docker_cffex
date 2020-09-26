@@ -1,4 +1,4 @@
 boto
 seldon-core
-tensorflow==1.15.2
+tensorflow==1.15.4
 jieba
